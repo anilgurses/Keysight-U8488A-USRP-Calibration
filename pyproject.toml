@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "pyvisa", "pyserial", "pyusb"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "u8488a-usrp-calibration"
+version = "0.0.1"
+authors = [
+  { name="Anil Gurses", email="agurses@ncsu.edu" },
+]
+description = "Keysight U8488A Powermeter Driver for USRP Power Calibration"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/anilgurses/Keysight-U8488A-USRP-Calibration"
+"Bug Tracker" = "https://github.com/anilgurses/Keysight-U8488A-USRP-Calibration/issues"
