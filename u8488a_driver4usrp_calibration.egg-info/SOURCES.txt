@@ -1,7 +1,0 @@
-README.md
-pyproject.toml
-setup.py
-u8488a_driver4usrp_calibration.egg-info/PKG-INFO
-u8488a_driver4usrp_calibration.egg-info/SOURCES.txt
-u8488a_driver4usrp_calibration.egg-info/dependency_links.txt
-u8488a_driver4usrp_calibration.egg-info/top_level.txt
