@@ -14,7 +14,7 @@ print("Available devices:")
 print(devs)
 
 # Setting frequency to 20 GHz
-dev.frequency = 1.85e9
+dev.frequency = 20e9
 
 while True:
     # Read power level every second
