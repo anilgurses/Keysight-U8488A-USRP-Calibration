@@ -19,7 +19,7 @@ dev = base.PowerMeter()
 devs = dev.get_device_list()
 
 if len(devs) > 0:
-    dev.open_device(devs(0))
+    dev.open_device(devs[0])
 else:
     print("No device found!")
     exit(1)
